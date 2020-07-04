@@ -1,0 +1,36 @@
+{
+  "name": "webgl-operations",
+  "version": "1.0.0",
+  "description": "[test](http://ab6d.github.io/webgl-operations)",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --inline --open",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ab6d/webgl-operations.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ab6d/webgl-operations/issues"
+  },
+  "homepage": "https://github.com/ab6d/webgl-operations#readme",
+  "devDependencies": {
+    "awesome-typescript-loader": "latest",
+    "css-loader": "latest",
+    "html-webpack-plugin": "latest",
+    "progress-bar-webpack-plugin": "latest",
+    "style-loader": "latest",
+    "typescript": "latest",
+    "webpack": "latest",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "latest"
+  },
+  "dependencies": {
+    "three": "latest"
+  }
+}
